@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-10-04T07:41:20.325Z",
+  "viewport": {
+    "width": 3840,
+    "height": 2160
+  },
+  "sceneSwitchCycles": 20,
+  "replayCycles": 5,
+  "totalStateChanges": 540,
+  "totalElapsedMs": 294518,
+  "totalElapsedSec": "294.5",
+  "webglErrors": 0,
+  "contextLossEvents": 0,
+  "memorySamples": [
+    {
+      "elapsed": 57682,
+      "phase": "scene-switch-cycle-10",
+      "geometries": 15,
+      "textures": 1,
+      "programs": 3,
+      "drawCalls": 41,
+      "triangles": 27264
+    },
+    {
+      "elapsed": 100935,
+      "phase": "scene-switch-cycle-20",
+      "geometries": 15,
+      "textures": 1,
+      "programs": 1,
+      "drawCalls": 20,
+      "triangles": 2240
+    },
+    {
+      "elapsed": 294518,
+      "phase": "final",
+      "geometries": 15,
+      "textures": 1,
+      "programs": 2,
+      "drawCalls": 22,
+      "triangles": 254
+    }
+  ],
+  "memoryDelta": {
+    "geometries": {
+      "start": 15,
+      "end": 15,
+      "delta": 0
+    },
+    "textures": {
+      "start": 1,
+      "end": 1,
+      "delta": 0
+    },
+    "programs": {
+      "start": 3,
+      "end": 2,
+      "delta": -1
+    }
+  },
+  "leakDetection": {
+    "geometryLeak": false,
+    "textureLeak": false,
+    "programLeak": false,
+    "thresholds": {
+      "geo": 50,
+      "tex": 20,
+      "prog": 10
+    }
+  },
+  "passed": true
+}

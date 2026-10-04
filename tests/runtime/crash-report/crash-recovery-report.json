@@ -1,0 +1,1356 @@
+{
+  "timestamp": "2026-10-04T08:04:45.758Z",
+  "totalScenarios": 48,
+  "totalViolations": 0,
+  "committedScenarios": 24,
+  "committedViolations": 0,
+  "presets": 8,
+  "crashPhases": 6,
+  "details": [
+    {
+      "preset": "avatar-galaxy",
+      "crashPhase": "ROLLING",
+      "invariantHeld": true,
+      "before": {
+        "preset": "avatar-galaxy",
+        "phase": "ROLLING",
+        "drawId": "draw-avatar-galaxy-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "avatar-galaxy",
+        "phase": "ROLLING",
+        "drawId": "draw-avatar-galaxy-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "avatar-galaxy",
+      "crashPhase": "FINAL_APPROACH",
+      "invariantHeld": true,
+      "before": {
+        "preset": "avatar-galaxy",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-avatar-galaxy-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "avatar-galaxy",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-avatar-galaxy-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "avatar-galaxy",
+      "crashPhase": "WINNER_FOCUS",
+      "invariantHeld": true,
+      "before": {
+        "preset": "avatar-galaxy",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-avatar-galaxy-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "avatar-galaxy",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-avatar-galaxy-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "avatar-galaxy",
+      "crashPhase": "REVEAL",
+      "invariantHeld": true,
+      "before": {
+        "preset": "avatar-galaxy",
+        "phase": "REVEAL",
+        "drawId": "draw-avatar-galaxy-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "avatar-galaxy",
+        "phase": "REVEAL",
+        "drawId": "draw-avatar-galaxy-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "avatar-galaxy",
+      "crashPhase": "CELEBRATION",
+      "invariantHeld": true,
+      "before": {
+        "preset": "avatar-galaxy",
+        "phase": "CELEBRATION",
+        "drawId": "draw-avatar-galaxy-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "avatar-galaxy",
+        "phase": "CELEBRATION",
+        "drawId": "draw-avatar-galaxy-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "avatar-galaxy",
+      "crashPhase": "RESULT_HOLD",
+      "invariantHeld": true,
+      "before": {
+        "preset": "avatar-galaxy",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-avatar-galaxy-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "avatar-galaxy",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-avatar-galaxy-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "crystal-sphere",
+      "crashPhase": "ROLLING",
+      "invariantHeld": true,
+      "before": {
+        "preset": "crystal-sphere",
+        "phase": "ROLLING",
+        "drawId": "draw-crystal-sphere-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "crystal-sphere",
+        "phase": "ROLLING",
+        "drawId": "draw-crystal-sphere-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "crystal-sphere",
+      "crashPhase": "FINAL_APPROACH",
+      "invariantHeld": true,
+      "before": {
+        "preset": "crystal-sphere",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-crystal-sphere-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "crystal-sphere",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-crystal-sphere-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "crystal-sphere",
+      "crashPhase": "WINNER_FOCUS",
+      "invariantHeld": true,
+      "before": {
+        "preset": "crystal-sphere",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-crystal-sphere-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "crystal-sphere",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-crystal-sphere-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "crystal-sphere",
+      "crashPhase": "REVEAL",
+      "invariantHeld": true,
+      "before": {
+        "preset": "crystal-sphere",
+        "phase": "REVEAL",
+        "drawId": "draw-crystal-sphere-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "crystal-sphere",
+        "phase": "REVEAL",
+        "drawId": "draw-crystal-sphere-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "crystal-sphere",
+      "crashPhase": "CELEBRATION",
+      "invariantHeld": true,
+      "before": {
+        "preset": "crystal-sphere",
+        "phase": "CELEBRATION",
+        "drawId": "draw-crystal-sphere-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "crystal-sphere",
+        "phase": "CELEBRATION",
+        "drawId": "draw-crystal-sphere-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "crystal-sphere",
+      "crashPhase": "RESULT_HOLD",
+      "invariantHeld": true,
+      "before": {
+        "preset": "crystal-sphere",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-crystal-sphere-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "crystal-sphere",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-crystal-sphere-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "red-gold-matrix",
+      "crashPhase": "ROLLING",
+      "invariantHeld": true,
+      "before": {
+        "preset": "red-gold-matrix",
+        "phase": "ROLLING",
+        "drawId": "draw-red-gold-matrix-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "red-gold-matrix",
+        "phase": "ROLLING",
+        "drawId": "draw-red-gold-matrix-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "red-gold-matrix",
+      "crashPhase": "FINAL_APPROACH",
+      "invariantHeld": true,
+      "before": {
+        "preset": "red-gold-matrix",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-red-gold-matrix-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "red-gold-matrix",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-red-gold-matrix-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "red-gold-matrix",
+      "crashPhase": "WINNER_FOCUS",
+      "invariantHeld": true,
+      "before": {
+        "preset": "red-gold-matrix",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-red-gold-matrix-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "red-gold-matrix",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-red-gold-matrix-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "red-gold-matrix",
+      "crashPhase": "REVEAL",
+      "invariantHeld": true,
+      "before": {
+        "preset": "red-gold-matrix",
+        "phase": "REVEAL",
+        "drawId": "draw-red-gold-matrix-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "red-gold-matrix",
+        "phase": "REVEAL",
+        "drawId": "draw-red-gold-matrix-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "red-gold-matrix",
+      "crashPhase": "CELEBRATION",
+      "invariantHeld": true,
+      "before": {
+        "preset": "red-gold-matrix",
+        "phase": "CELEBRATION",
+        "drawId": "draw-red-gold-matrix-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "red-gold-matrix",
+        "phase": "CELEBRATION",
+        "drawId": "draw-red-gold-matrix-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "red-gold-matrix",
+      "crashPhase": "RESULT_HOLD",
+      "invariantHeld": true,
+      "before": {
+        "preset": "red-gold-matrix",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-red-gold-matrix-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "red-gold-matrix",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-red-gold-matrix-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-vortex",
+      "crashPhase": "ROLLING",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-vortex",
+        "phase": "ROLLING",
+        "drawId": "draw-golden-vortex-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-vortex",
+        "phase": "ROLLING",
+        "drawId": "draw-golden-vortex-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-vortex",
+      "crashPhase": "FINAL_APPROACH",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-vortex",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-golden-vortex-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-vortex",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-golden-vortex-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-vortex",
+      "crashPhase": "WINNER_FOCUS",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-vortex",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-golden-vortex-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-vortex",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-golden-vortex-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-vortex",
+      "crashPhase": "REVEAL",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-vortex",
+        "phase": "REVEAL",
+        "drawId": "draw-golden-vortex-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-vortex",
+        "phase": "REVEAL",
+        "drawId": "draw-golden-vortex-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-vortex",
+      "crashPhase": "CELEBRATION",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-vortex",
+        "phase": "CELEBRATION",
+        "drawId": "draw-golden-vortex-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-vortex",
+        "phase": "CELEBRATION",
+        "drawId": "draw-golden-vortex-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-vortex",
+      "crashPhase": "RESULT_HOLD",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-vortex",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-golden-vortex-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-vortex",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-golden-vortex-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-portal",
+      "crashPhase": "ROLLING",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-portal",
+        "phase": "ROLLING",
+        "drawId": "draw-golden-portal-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-portal",
+        "phase": "ROLLING",
+        "drawId": "draw-golden-portal-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-portal",
+      "crashPhase": "FINAL_APPROACH",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-portal",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-golden-portal-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-portal",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-golden-portal-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-portal",
+      "crashPhase": "WINNER_FOCUS",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-portal",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-golden-portal-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-portal",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-golden-portal-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-portal",
+      "crashPhase": "REVEAL",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-portal",
+        "phase": "REVEAL",
+        "drawId": "draw-golden-portal-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-portal",
+        "phase": "REVEAL",
+        "drawId": "draw-golden-portal-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-portal",
+      "crashPhase": "CELEBRATION",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-portal",
+        "phase": "CELEBRATION",
+        "drawId": "draw-golden-portal-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-portal",
+        "phase": "CELEBRATION",
+        "drawId": "draw-golden-portal-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "golden-portal",
+      "crashPhase": "RESULT_HOLD",
+      "invariantHeld": true,
+      "before": {
+        "preset": "golden-portal",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-golden-portal-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "golden-portal",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-golden-portal-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "honor-stage",
+      "crashPhase": "ROLLING",
+      "invariantHeld": true,
+      "before": {
+        "preset": "honor-stage",
+        "phase": "ROLLING",
+        "drawId": "draw-honor-stage-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "honor-stage",
+        "phase": "ROLLING",
+        "drawId": "draw-honor-stage-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "honor-stage",
+      "crashPhase": "FINAL_APPROACH",
+      "invariantHeld": true,
+      "before": {
+        "preset": "honor-stage",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-honor-stage-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "honor-stage",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-honor-stage-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "honor-stage",
+      "crashPhase": "WINNER_FOCUS",
+      "invariantHeld": true,
+      "before": {
+        "preset": "honor-stage",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-honor-stage-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "honor-stage",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-honor-stage-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "honor-stage",
+      "crashPhase": "REVEAL",
+      "invariantHeld": true,
+      "before": {
+        "preset": "honor-stage",
+        "phase": "REVEAL",
+        "drawId": "draw-honor-stage-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "honor-stage",
+        "phase": "REVEAL",
+        "drawId": "draw-honor-stage-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "honor-stage",
+      "crashPhase": "CELEBRATION",
+      "invariantHeld": true,
+      "before": {
+        "preset": "honor-stage",
+        "phase": "CELEBRATION",
+        "drawId": "draw-honor-stage-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "honor-stage",
+        "phase": "CELEBRATION",
+        "drawId": "draw-honor-stage-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "honor-stage",
+      "crashPhase": "RESULT_HOLD",
+      "invariantHeld": true,
+      "before": {
+        "preset": "honor-stage",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-honor-stage-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "honor-stage",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-honor-stage-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "particle-constellation",
+      "crashPhase": "ROLLING",
+      "invariantHeld": true,
+      "before": {
+        "preset": "particle-constellation",
+        "phase": "ROLLING",
+        "drawId": "draw-particle-constellation-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "particle-constellation",
+        "phase": "ROLLING",
+        "drawId": "draw-particle-constellation-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "particle-constellation",
+      "crashPhase": "FINAL_APPROACH",
+      "invariantHeld": true,
+      "before": {
+        "preset": "particle-constellation",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-particle-constellation-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "particle-constellation",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-particle-constellation-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "particle-constellation",
+      "crashPhase": "WINNER_FOCUS",
+      "invariantHeld": true,
+      "before": {
+        "preset": "particle-constellation",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-particle-constellation-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "particle-constellation",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-particle-constellation-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "particle-constellation",
+      "crashPhase": "REVEAL",
+      "invariantHeld": true,
+      "before": {
+        "preset": "particle-constellation",
+        "phase": "REVEAL",
+        "drawId": "draw-particle-constellation-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "particle-constellation",
+        "phase": "REVEAL",
+        "drawId": "draw-particle-constellation-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "particle-constellation",
+      "crashPhase": "CELEBRATION",
+      "invariantHeld": true,
+      "before": {
+        "preset": "particle-constellation",
+        "phase": "CELEBRATION",
+        "drawId": "draw-particle-constellation-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "particle-constellation",
+        "phase": "CELEBRATION",
+        "drawId": "draw-particle-constellation-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "particle-constellation",
+      "crashPhase": "RESULT_HOLD",
+      "invariantHeld": true,
+      "before": {
+        "preset": "particle-constellation",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-particle-constellation-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "particle-constellation",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-particle-constellation-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "grand-ceremony",
+      "crashPhase": "ROLLING",
+      "invariantHeld": true,
+      "before": {
+        "preset": "grand-ceremony",
+        "phase": "ROLLING",
+        "drawId": "draw-grand-ceremony-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "grand-ceremony",
+        "phase": "ROLLING",
+        "drawId": "draw-grand-ceremony-ROLLING",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "grand-ceremony",
+      "crashPhase": "FINAL_APPROACH",
+      "invariantHeld": true,
+      "before": {
+        "preset": "grand-ceremony",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-grand-ceremony-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "grand-ceremony",
+        "phase": "FINAL_APPROACH",
+        "drawId": "draw-grand-ceremony-FINAL_APPROACH",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "grand-ceremony",
+      "crashPhase": "WINNER_FOCUS",
+      "invariantHeld": true,
+      "before": {
+        "preset": "grand-ceremony",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-grand-ceremony-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "grand-ceremony",
+        "phase": "WINNER_FOCUS",
+        "drawId": "draw-grand-ceremony-WINNER_FOCUS",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "grand-ceremony",
+      "crashPhase": "REVEAL",
+      "invariantHeld": true,
+      "before": {
+        "preset": "grand-ceremony",
+        "phase": "REVEAL",
+        "drawId": "draw-grand-ceremony-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "grand-ceremony",
+        "phase": "REVEAL",
+        "drawId": "draw-grand-ceremony-REVEAL",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "grand-ceremony",
+      "crashPhase": "CELEBRATION",
+      "invariantHeld": true,
+      "before": {
+        "preset": "grand-ceremony",
+        "phase": "CELEBRATION",
+        "drawId": "draw-grand-ceremony-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "grand-ceremony",
+        "phase": "CELEBRATION",
+        "drawId": "draw-grand-ceremony-CELEBRATION",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    },
+    {
+      "preset": "grand-ceremony",
+      "crashPhase": "RESULT_HOLD",
+      "invariantHeld": true,
+      "before": {
+        "preset": "grand-ceremony",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-grand-ceremony-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ]
+      },
+      "after": {
+        "preset": "grand-ceremony",
+        "phase": "RESULT_HOLD",
+        "drawId": "draw-grand-ceremony-RESULT_HOLD",
+        "commitHash": "sha256:deadbeef01234567890abcdef01234567890abcdef01234567890abcdef01",
+        "winnerIds": [
+          "c-0",
+          "c-1",
+          "c-2"
+        ],
+        "recovered": true
+      }
+    }
+  ],
+  "passed": true
+}

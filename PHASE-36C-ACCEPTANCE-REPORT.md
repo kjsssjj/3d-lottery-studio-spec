@@ -1,14 +1,36 @@
 # PHASE 36C Production Acceptance Report
 
 **Date**: 2026-10-04  
-**Status**: ✅ PRODUCTION ACCEPTED  
+**Status**: RELEASE CANDIDATE / PRODUCTION-READY CODE  
 **Version**: V1.3.0
+
+---
+
+## Status Summary
+
+```
+PHASE 36C
+
+Implementation        ✅ COMPLETE
+TypeScript             ✅ PASS
+Automated Tests        ✅ 93 / 93
+Architecture Gates     ✅ PASS
+Static Production Gate ✅ PASS
+
+Runtime Acceptance     ⚠ PARTIAL
+4K Visual Acceptance   ⚠ NOT EXECUTED
+Resource Leak Stress   ⚠ NOT EXECUTED
+
+STATUS: RELEASE CANDIDATE / PRODUCTION-READY CODE
+```
 
 ---
 
 ## Executive Summary
 
-PHASE 36C "High-Quality 3D Rendering & Cinematic Production Polish" has successfully passed all 8 production acceptance gates (G1-G8). The cinematic system is now production-ready with:
+PHASE 36C "High-Quality 3D Rendering & Cinematic Production Polish" has completed implementation and passed all static acceptance gates (G1-G8). The code is production-ready and frozen.
+
+**Runtime acceptance (G3 real browser, G4 4K screenshots, G7 stress) is deferred to PHASE 36D — Physical Runtime Acceptance.**
 
 - ✅ Zero TypeScript compilation errors
 - ✅ 93/93 tests passing (100% green)
@@ -58,28 +80,43 @@ PHASE 36C "High-Quality 3D Rendering & Cinematic Production Polish" has successf
 
 ---
 
-## G3: Browser Runtime Gate (Static Analysis) ✅
+## G3: Browser Runtime Gate
 
 **Criteria**: No WebGL errors, no runtime anti-patterns
 
-**Result**: PASS (static verification)
+**Result**:
+```
+G3 Static Runtime Contract    ✅ PASS
+G3 Real Browser Runtime       ⚠ PENDING → PHASE 36D #121
+```
 
-**Verified**:
+**Static Verification (PASS)**:
 - ✅ All 8 scene files export valid React components
 - ✅ No inline `CameraBridge` in scene files (separation of concerns)
 - ✅ No inline `Environment` in scene files (centralized management)
 - ✅ No inline `PostProcessing` in scene files (composition root pattern)
 - ✅ All scenes use pure geometry pattern (`React.createElement('group')`)
 
+**Pending Runtime Verification (PHASE 36D)**:
+- Real WebGLRenderer creation
+- Real shader compilation
+- Real HDR texture load + PMREM
+- Real postprocessing pipeline
+- Console check: THREE.WebGLProgram errors, shader compile errors, WebGL errors, React errors, unhandled rejections, failed asset requests
+
 ---
 
-## G4: 4K Visual Gate (Static Analysis) ✅
+## G4: 4K Visual Gate
 
 **Criteria**: 64 visual state baselines (8 presets × 8 phases)
 
-**Result**: PASS (static verification)
+**Result**:
+```
+G4 Scene/Phase Matrix       ✅ PASS
+G4 Actual 4K Visual        ⚠ PENDING → PHASE 36D #122
+```
 
-**Verified**:
+**Static Verification (PASS)**:
 - ✅ All 8 cinematic presets registered:
   - AVATAR_GALAXY
   - CRYSTAL_SPHERE
@@ -152,13 +189,17 @@ PHASE 36C "High-Quality 3D Rendering & Cinematic Production Polish" has successf
 
 ---
 
-## G7: Resource Leak / Replay Stress (Static Analysis) ✅
+## G7: Resource Leak / Replay Stress
 
 **Criteria**: Dispose patterns exist, no memory leaks
 
-**Result**: PASS (static verification)
+**Result**:
+```
+G7 Dispose Contract        ✅ PASS
+G7 Runtime Leak Stress     ⚠ PENDING → PHASE 36D #124
+```
 
-**Verified**:
+**Static Verification (PASS)**:
 - ✅ All 8 effects extend `BaseCinematicEffect`
 - ✅ All 8 effects implement `dispose()` method
 - ✅ `BaseCinematicEffect` has `dispose()` method
@@ -196,6 +237,16 @@ PHASE 36C "High-Quality 3D Rendering & Cinematic Production Polish" has successf
 // - Result is passed through, never modified
 // - Snapshot includes result for crash recovery
 ```
+
+**Recovery Priority (to be strengthened in PHASE 36D #125)**:
+```
+1. Control SYNC_SNAPSHOT        ← authoritative source
+2. COMMITTED DrawRecord          ← Control-side truth
+3. Local cinematic snapshot      ← fast local recovery cache
+4. Fallback → Reveal committed winner
+```
+
+> sessionStorage is a fast local cache only. The authoritative draw result always comes from Control via SYNC_SNAPSHOT. PHASE 36D #125 will verify the full crash recovery chain end-to-end.
 
 ---
 
@@ -335,23 +386,26 @@ Before deploying to production:
 
 ## Conclusion
 
-PHASE 36C is **PRODUCTION ACCEPTED**. All 8 gates pass with 93/93 tests green. The cinematic system follows best practices:
+PHASE 36C is **RELEASE CANDIDATE / PRODUCTION-READY CODE**.
 
-- ✅ Separation of concerns (scenes are pure geometry)
-- ✅ Centralized resource management (environment, camera, postprocessing)
-- ✅ Performance governance (4-tier system)
-- ✅ Offline-first (local HDRI assets)
-- ✅ Resource leak prevention (dispose patterns)
-- ✅ Crash recovery (sessionStorage snapshots)
-- ✅ Type safety (zero TypeScript errors)
+**What is verified**:
+- ✅ Code complete (32+ files, 6 infrastructure layers)
+- ✅ Architecture accepted (composition root, separation of concerns)
+- ✅ Typecheck accepted (0 TypeScript errors)
+- ✅ Automated test accepted (93/93 green)
+- ✅ Static production gates passed (G1-G8)
 
-**Next Steps**:
-- PHASE 37: Audio system implementation
-- PHASE 38: Browser acceptance testing (manual)
-- PHASE 39: Production deployment
+**What is NOT yet verified (→ PHASE 36D)**:
+- ⚠ Real browser WebGL runtime (G3)
+- ⚠ 4K visual baselines with actual screenshots (G4)
+- ⚠ GPU/memory stress with real renderer.info curves (G7)
+- ⚠ Full crash recovery E2E with Control handshake (G8)
+- ⚠ Offline production run with network disabled
+
+**Next**: PHASE 36D — Physical Runtime Acceptance (#121-#126)
 
 ---
 
 **Signed off by**: AI Assistant  
 **Date**: 2026-10-04  
-**Build**: V1.3.0-36C-ACCEPTED
+**Build**: V1.3.0-36C-RC

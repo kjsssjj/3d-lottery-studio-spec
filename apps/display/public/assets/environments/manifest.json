@@ -1,0 +1,79 @@
+{
+  "version": "1.3.0",
+  "description": "Offline HDRI environment assets for Cinematic 3D rendering",
+  "required": true,
+  "offline": true,
+  "assets": [
+    {
+      "id": "ceremony-red-gold",
+      "filename": "ceremony-red-gold.hdr",
+      "description": "Warm red-gold ceremony hall environment for Grand Ceremony preset",
+      "resolution": "2k",
+      "format": "hdr (RGBE)",
+      "usedBy": ["grand-ceremony"]
+    },
+    {
+      "id": "crystal-studio",
+      "filename": "crystal-studio.hdr",
+      "description": "Clean bright studio for Crystal Sphere transmission/refraction",
+      "resolution": "2k",
+      "format": "hdr (RGBE)",
+      "usedBy": ["crystal-sphere"]
+    },
+    {
+      "id": "honor-stage",
+      "filename": "honor-stage.hdr",
+      "description": "Dramatic stage lighting environment for Honor Stage preset",
+      "resolution": "2k",
+      "format": "hdr (RGBE)",
+      "usedBy": ["honor-stage"]
+    },
+    {
+      "id": "golden-sunset",
+      "filename": "golden-sunset.hdr",
+      "description": "Warm golden sunset for Avatar Galaxy, Golden Vortex, Golden Portal",
+      "resolution": "2k",
+      "format": "hdr (RGBE)",
+      "usedBy": ["avatar-galaxy", "golden-vortex", "golden-portal"]
+    },
+    {
+      "id": "night-constellation",
+      "filename": "night-constellation.hdr",
+      "description": "Dark night sky for Particle Constellation preset",
+      "resolution": "2k",
+      "format": "hdr (RGBE)",
+      "usedBy": ["particle-constellation"]
+    },
+    {
+      "id": "matrix-industrial",
+      "filename": "matrix-industrial.hdr",
+      "description": "Industrial warehouse for Red Gold Matrix preset",
+      "resolution": "2k",
+      "format": "hdr (RGBE)",
+      "usedBy": ["red-gold-matrix"]
+    },
+    {
+      "id": "neutral-studio",
+      "filename": "neutral-studio.hdr",
+      "description": "Neutral studio environment for general use",
+      "resolution": "1k",
+      "format": "hdr (RGBE)",
+      "usedBy": []
+    },
+    {
+      "id": "fallback-neutral",
+      "filename": "fallback-neutral.hdr",
+      "description": "Minimal fallback environment, loaded when primary fails",
+      "resolution": "512",
+      "format": "hdr (RGBE)",
+      "usedBy": []
+    }
+  ],
+  "totalSizeEstimate": "16MB",
+  "notes": [
+    "All assets must be local — NO remote URLs, NO CDN",
+    "Assets are included in Asset Revision, Project Snapshot, Event Lock, Backup, Release Manifest",
+    "fallback-neutral.hdr must always be present (smallest, fastest to load)",
+    "Production build validates all files exist before packaging"
+  ]
+}
