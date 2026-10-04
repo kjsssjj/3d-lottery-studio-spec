@@ -1,0 +1,28 @@
+{
+  "_comment": "FIX-06: Display direct dependency declaration — apply to apps/display/package.json when full workspace is restored",
+  "_status": "PENDING — workspace is source-only, no package.json exists yet",
+  "_appliedTo": "apps/display/package.json",
+  "dependencies": {
+    "@lottery/core": "workspace:*",
+    "@lottery/renderer": "workspace:*",
+    "@lottery/shared-ui": "workspace:*",
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.0",
+    "@react-three/postprocessing": "^2.16.0",
+    "postprocessing": "^6.36.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.171.0",
+    "idb": "^8.0.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.171.0",
+    "vitest": "^2.0.0"
+  },
+  "verification": {
+    "step1": "pnpm install --frozen-lockfile",
+    "step2": "pnpm --filter @lottery/display build",
+    "step3": "Confirm: 0 missing deps, 0 implicit hoisting reliance"
+  }
+}
